@@ -69,20 +69,25 @@ def generate_combination_problem():
         "formula_parts": formula_parts
     }
 
-# --- GCD Problem Generator ---
+# --- GCD Problem Generator (Fixed Version) ---
 def generate_gcd_problem():
-    # Pick two numbers with a GCD between 2 and 15, by construction
-    gcd = random.randint(2, 15)
-    a = gcd * random.randint(2, 10)
-    b = gcd * random.randint(2, 10)
-    while a == b:
-        b = gcd * random.randint(2, 10)
+    gcd_val = random.randint(2, 15)
+
+    # Ensure m and n are co-prime
+    while True:
+        m = random.randint(2, 10)
+        n = random.randint(2, 10)
+        if math.gcd(m, n) == 1:
+            break
+
+    a = gcd_val * m
+    b = gcd_val * n
 
     return {
         "type": "gcd",
         "a": a,
         "b": b,
-        "gcd": gcd
+        "gcd": gcd_val
     }
 
 # --- Generate New Problem based on score ---
