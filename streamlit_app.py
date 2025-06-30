@@ -1,4 +1,6 @@
 import streamlit as st
+import qrcode
+import io
 import random
 import math
 from PIL import Image
