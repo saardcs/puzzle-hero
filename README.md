@@ -1,8 +1,8 @@
 # Puzzle-Hero
 
-Puzzle-Hero is an interactive Streamlit web app that challenges users to solve combination problems involving characters (letters and numbers). Users solve multiplication step problems to advance through ranks, earn points, and ultimately become a "Master of Numbers."
-
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://puzzle-hero.streamlit.app/)
+
+Puzzle-Hero is an interactive Streamlit web app that challenges users to solve combination problems involving characters (letters and numbers). Users solve multiplication step problems to advance through ranks, earn points, and ultimately become a "Master of Numbers."
 
 ---
 
