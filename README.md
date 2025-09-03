@@ -80,7 +80,7 @@ Puzzle-Hero is an interactive Streamlit web app that challenges users to solve c
 ---
 
 ## File Structure
-
+```plaintext
 /puzzle-hero
 ├── streamlit-app.py     # Main Streamlit app script
 ├── level0.webp          # Novice Cipherer rank image
@@ -89,7 +89,7 @@ Puzzle-Hero is an interactive Streamlit web app that challenges users to solve c
 ├── 3char.png            # Image representing 3-character codes
 ├── 4char.png            # Image representing 4-character codes
 └── 5char.png            # Image representing 5-character codes
-
+```
 ---
 
 ## Future Improvements
