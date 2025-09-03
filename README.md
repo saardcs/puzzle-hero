@@ -41,13 +41,6 @@ Students calculate how many valid combinations exist based on certain rules, and
 
 ---
 
-## 📝 Use with Worksheet
-
-A printable worksheet is available for offline solving.  
-Students solve by hand first, then check their answers in the app.
-
----
-
 ## 🚀 Getting Started
 
 1. Make sure you have Python 3.7+ installed.
