@@ -43,7 +43,7 @@ Students calculate how many valid combinations exist based on certain rules, and
 
 ## 🚀 Getting Started
 
-1. Make sure you have Python 3.7+ installed.
+1. Make sure you have Python 3.9+ installed.
 2. Install required packages:
 
     ```bash
